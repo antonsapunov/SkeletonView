@@ -38,6 +38,8 @@ public class SkeletonViewAppearance {
     public var renderSingleLineAsView: Bool = false
     
     public var skeletonCornerRadius: Float = 0
-
+    
+    /// Trait collection swizzling
+    public var isTraitCollectionSwizzled: Bool = true
 }
 // codebeat:enable[TOO_MANY_IVARS]
